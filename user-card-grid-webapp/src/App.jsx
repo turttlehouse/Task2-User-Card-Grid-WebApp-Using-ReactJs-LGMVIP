@@ -69,7 +69,7 @@ const App = () => {
   return (
     <div className="App">
       <Navbar PassedasProps={fetchUsers} />                       {/*  passing a prop called "PassedasProps" with the value of the fetchUsers function. This allows the <Navbar> component to call fetchUsers when a button is clicked Later. */}
-      {loading ? <p>Loading...</p> : <UserCard users={users} />}  {/* This is a conditional rendering statement. It checks the value of the loading state variable. If loading is true, it renders a loading message <p>Loading...</p>. If loading is false, it renders the <UserCard> component and passes it the users prop, which contains the user data fetched from the API. */}
+      {loading ? <p className='loading'>Loading...</p> : <UserCard users={users} />}  {/* This is a conditional rendering statement. It checks the value of the loading state variable. If loading is true, it renders a loading message <p>Loading...</p>. If loading is false, it renders the <UserCard> component and passes it the users prop, which contains the user data fetched from the API. */}
     </div>
   );
 }
