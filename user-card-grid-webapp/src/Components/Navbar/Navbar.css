@@ -1,0 +1,30 @@
+ /* Navbar Styles */
+ .Navbar {
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .get-users-btn {
+    background-color: yellow;
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Add hover effect */
+  .get-users-btn:hover {
+    background-color: white;
+  }
+
+  h1{
+    font-size: 24px;
+  }
