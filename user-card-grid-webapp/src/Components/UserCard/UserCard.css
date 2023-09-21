@@ -1,0 +1,30 @@
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 columns in one row */
+    gap: 30px; 
+    padding: 20px;
+}
+
+
+
+.user-card{
+    background-color:  #eaeaea;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-card:hover{
+    transform: scale(1.1);
+}
+.user-card h2{
+    font-size: 18px;
+    margin: 0;
+    color:  #333333 ;
+}
+
+.user-card p {
+    margin : 10px 0 ;
+    color:  #333333 ;
+}
